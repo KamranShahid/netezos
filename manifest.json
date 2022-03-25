@@ -1,0 +1,2638 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "docs/*.md": {
+        "baseUrl": "https://netezos.dev/",
+        "changefreq": "weekly",
+        "priority": 1.0
+      }
+    },
+    "baseUrl": "https://netezos.dev/",
+    "changefreq": "monthly",
+    "priority": 0.5
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.AddressSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.AddressSchema.html",
+          "hash": "iCrTj11N7EAgJIebAqacTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.BigMapSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.BigMapSchema.html",
+          "hash": "8RgWGaHNE2T6/MrZgQxNGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Bls12381FrSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Bls12381FrSchema.html",
+          "hash": "/yoDYqmghsS4uJvKbVo1Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Bls12381G1Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Bls12381G1Schema.html",
+          "hash": "OFeBC2MvaV8ISX9dngnm8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Bls12381G2Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Bls12381G2Schema.html",
+          "hash": "dzxj3y5PGZAv6PZyCuaBNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.BoolSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.BoolSchema.html",
+          "hash": "6Ep91D5Mh0gxWm8KInKVpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.BytesSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.BytesSchema.html",
+          "hash": "L3WE3gVBhZ29FfcmfcEBEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ChainIdSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ChainIdSchema.html",
+          "hash": "huYl5ye4GeY5ywWbiEetdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ChestKeySchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ChestKeySchema.html",
+          "hash": "o4Wqzw2zVHt9yrcBOoFTiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ChestSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ChestSchema.html",
+          "hash": "+Rzs4/dpxuQJUYQ9Iwt4Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ConstantSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ConstantSchema.html",
+          "hash": "uHnrwzrvmSIxdZghEvTsZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ContractParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ContractParameter.html",
+          "hash": "UDzU3nqfZCFZM+9stEYVJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ContractSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ContractSchema.html",
+          "hash": "TmgazxV/gAaP8T4XUmL4Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ContractScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ContractScript.html",
+          "hash": "2e/Y3hy/iQYX57KP9osnGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ContractStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ContractStorage.html",
+          "hash": "uJ2oidMrc/ZHBHVS3sLY0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.IntSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.IntSchema.html",
+          "hash": "FmPQFyhE1y7dOHWgnBDxfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.KeyHashSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.KeyHashSchema.html",
+          "hash": "yCjyLNzhsZkQYpiJowjSZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.KeySchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.KeySchema.html",
+          "hash": "ECqMRmT0GJFKFhOhV8ugJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.LambdaSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.LambdaSchema.html",
+          "hash": "kH/+smJPR4ce16Fd8dxgHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ListSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ListSchema.html",
+          "hash": "vB90VGFGSxTI5AtzYHRy8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.MapSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.MapSchema.html",
+          "hash": "xx/6iQAVctyW0Qb872O0Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.MutezSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.MutezSchema.html",
+          "hash": "fPm29W2x24zXRJyLBFeIag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.NatSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.NatSchema.html",
+          "hash": "csCjVwThUeg44bdn73IT6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.NeverSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.NeverSchema.html",
+          "hash": "Wwsto7bxA/YqApAXbUexIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.OperationSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.OperationSchema.html",
+          "hash": "OWmBUo/a/WK9OuaGJ/xJog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.OptionSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.OptionSchema.html",
+          "hash": "Yd6OQtT3KBBJwEeHIzTALQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.OrSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.OrSchema.html",
+          "hash": "y1+pipxzmmNDK6dKU4i2ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.PairKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.PairKind.html",
+          "hash": "OscvIgTxbExHJ3v7GWUduQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.PairSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.PairSchema.html",
+          "hash": "3AWhh4TxB9BzOWEjD7xfLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ParameterSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ParameterSchema.html",
+          "hash": "XlHmsg02V6JRDBm+4KSNHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.SaplingStateSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.SaplingStateSchema.html",
+          "hash": "q6G2R8dmGPDx7Gp+8YouiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.SaplingTransactionSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.SaplingTransactionSchema.html",
+          "hash": "CYPnJYsbNVH7iAbV0JbNnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Schema.html",
+          "hash": "1xLMNFJFocV42IxObhdJGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.SetSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.SetSchema.html",
+          "hash": "cthEibf+dxjWUQjmF6yC5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.SignatureSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.SignatureSchema.html",
+          "hash": "cKfkaG4rORz2pYryFmR/KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.StorageSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.StorageSchema.html",
+          "hash": "HzjjrUe/BqFcJ2AhrGoqBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.StringSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.StringSchema.html",
+          "hash": "j+YzyybXDdTXFb14IEoF3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.TicketSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.TicketSchema.html",
+          "hash": "XjC9F/+ckJBH764wskN4/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.TimestampSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.TimestampSchema.html",
+          "hash": "aR6YjnEJnCDOeHaGqX43Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.TreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.TreeView.html",
+          "hash": "+CtTWYSSloX3rBa0TjuVsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Tzip12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Tzip12.html",
+          "hash": "EOLGjV5kUQTa3FVFcmVyEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Tzip5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Tzip5.html",
+          "hash": "4pXvxpnl/uYYJDK6TDEPsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.Tzip7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.Tzip7.html",
+          "hash": "X101y07Mq9MYd8qACOZ+/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.UnitSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.UnitSchema.html",
+          "hash": "7trtpzWZoaRN22dZAtZXfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.ViewSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.ViewSchema.html",
+          "hash": "G1LaJNNEaIzKIhL2Q4N8uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Contracts.html",
+          "hash": "lQDmgyOZhsLXyOlYOhd+iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.AnnotationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.AnnotationType.html",
+          "hash": "Jc9QcSAxbPZckwQgx0LdRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Base58.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Base58.html",
+          "hash": "LmRNWUpUDFVNkNyw8JJanw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Base64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Base64.html",
+          "hash": "H57VhvtcX3qoq75FJtA7uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.FieldAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.FieldAnnotation.html",
+          "hash": "M0gbUYhhW5W0lTmjHnIPeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Hex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Hex.html",
+          "hash": "lJotfYQYmduz3s8H8cd9YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.IAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.IAnnotation.html",
+          "hash": "GWNzTL23fDf8Hpjgwy9kIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.IMicheline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.IMicheline.html",
+          "hash": "4Fe8mtDsfLgEhgrpOycNjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Micheline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Micheline.html",
+          "hash": "t+GocDMUmHu/F624+tjPOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelineArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelineArray.html",
+          "hash": "aXeG3ipL5kRTJejn+QKgGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelineBytes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelineBytes.html",
+          "hash": "xNPQ8fKPidoqznpblqBFHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelineInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelineInt.html",
+          "hash": "ENnpMQB5kLYyRV7RlONelw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelinePrim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelinePrim.html",
+          "hash": "+r4/64nNiYU3Tkdb7ycyCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelineString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelineString.html",
+          "hash": "01GdIkc2TmZPo8vpiUiInw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.MichelineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.MichelineType.html",
+          "hash": "pj5X7KhziqhVpRTTZpJ3fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.PrimType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.PrimType.html",
+          "hash": "L/+Hmqyl2wqPhJ9ipeBUNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.AnnotationConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.AnnotationConverter.html",
+          "hash": "xdzEx8aZ3rfN3CifkTRvDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.InterfaceJsonConverterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.InterfaceJsonConverterAttribute.html",
+          "hash": "cKGbmoO9oEBpUm8e4loOsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.MichelineConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.MichelineConverter.html",
+          "hash": "hiQERSuWZ/2Su9FRSvfBtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.MichelsonFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.MichelsonFormatter.html",
+          "hash": "XfNtE7aOwEUZNmcZET4/oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.PrimTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.PrimTypeConverter.html",
+          "hash": "l6vnMVOe1s+riHyqvykyEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Serialization.html",
+          "hash": "xxbXZczdIU57f3SJgYuPVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.TypeAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.TypeAnnotation.html",
+          "hash": "SoDMUfscwRhw+9nYIfSR7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.UnsafeAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.UnsafeAnnotation.html",
+          "hash": "98A6Y7FKFOvtYCxcAJfudA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.Utf8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.Utf8.html",
+          "hash": "CAYVSS1MZI+Frk0IgSMXcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.VariableAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.VariableAnnotation.html",
+          "hash": "lnWhzuadoSGpjqQk0vgyrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Encoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Encoding.html",
+          "hash": "rxVNpal1Ml0RwCdg76z9hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.ForgedReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.ForgedReader.html",
+          "hash": "FYfM0URPRtZMqAOvNoBtTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.IForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.IForge.html",
+          "hash": "vpn0NzlQH3xfB6aaQPzJFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.IUnforge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.IUnforge.html",
+          "hash": "EWGh66HdH7xdMKfzkkORRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.LocalForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.LocalForge.html",
+          "hash": "1jkRY811xcVYmeH35ZqHFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.ActivationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.ActivationContent.html",
+          "hash": "UHXlyQxGMx5gTngqDyU0XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.Ballot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.Ballot.html",
+          "hash": "uxg4bTmqErWz4HAwhUpZKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.BallotContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.BallotContent.html",
+          "hash": "K6g+Cb0o0SPyjgDRz+ar/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.BlockHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.BlockHeader.html",
+          "hash": "59loObY4s2L27PcAVrTqRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.DelegationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.DelegationContent.html",
+          "hash": "CPKgLY/DeyDpFPkxpIAccA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.DoubleBakingContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.DoubleBakingContent.html",
+          "hash": "oqJWddkol+sIEiZtZGIi2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.DoubleEndorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.DoubleEndorsementContent.html",
+          "hash": "MgL3Tkzh48oZ8or4Kiux1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.DoublePreendorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.DoublePreendorsementContent.html",
+          "hash": "c4HLwwb7L+dtFQnOi+iXeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.EndorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.EndorsementContent.html",
+          "hash": "XYWX3q5rHf7JDkz2yvLfOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.InlinedEndorsement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.InlinedEndorsement.html",
+          "hash": "AnJq+9wN+Cx7fY3s2msouw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.InlinedPreendorsement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.InlinedPreendorsement.html",
+          "hash": "mHW3BxQq0G9cA5P5m6gA/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.ManagerOperationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.ManagerOperationContent.html",
+          "hash": "pDKYxwW1jut9cC3RMSHLmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.Operation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.Operation.html",
+          "hash": "UA9gMN+7F34i8eVlY6hGKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.OperationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.OperationContent.html",
+          "hash": "Qufr4NN5EAO3GWvnWkuiMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.OperationTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.OperationTag.html",
+          "hash": "lHmJ0zU+8mx0ybUUQO70GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.OriginationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.OriginationContent.html",
+          "hash": "UfYDJo552H9BS7oCgWe9jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.Parameters.html",
+          "hash": "SG+UvhO8BD7Zjp+sWJn50w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.PreendorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.PreendorsementContent.html",
+          "hash": "NxhrWzL5MGzjFAsvbO6BVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.ProposalsContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.ProposalsContent.html",
+          "hash": "L/zYKCmzfUlBT6EbfxJ2cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.RegisterConstantContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.RegisterConstantContent.html",
+          "hash": "yrycVeNK122MNUuR5oobfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.RevealContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.RevealContent.html",
+          "hash": "IKHi9QDwdfB7DtHZcNt5Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.Script.html",
+          "hash": "gBqpqZKGCwYE+hqJn5yemQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.SeedNonceRevelationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.SeedNonceRevelationContent.html",
+          "hash": "EmJ2zekfWX2GDLOhk4RKTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.SetDepositsLimitContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.SetDepositsLimitContent.html",
+          "hash": "PAWqz+EFq0JLOjde5DU1lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.TransactionContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.TransactionContent.html",
+          "hash": "FDxVkOEzmzuPPBZtvX3mlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.Models.html",
+          "hash": "++5fVMoVuFAhbJ34OAvVzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.RpcForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.RpcForge.html",
+          "hash": "Uxa9fc7r2P1F3oeXEs7Z5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Forging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Forging.html",
+          "hash": "+y35YDb3Xmjp1qUj2pJEyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.ECKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.ECKind.html",
+          "hash": "69vJvfvjqiS+aMNKytdnvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.HDKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.HDKey.html",
+          "hash": "4GW7+Kw/lFlcFHS5ihyb3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.HDPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.HDPath.html",
+          "hash": "JhVTvKwQGNrDAZtry4NCug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.HDPubKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.HDPubKey.html",
+          "hash": "uw/6KzFuVm+lfyrANSRUCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.Key.html",
+          "hash": "YIOImlqYIVPlc4yyPcAkEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.Mnemonic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.Mnemonic.html",
+          "hash": "z1JbdBqkPLnKODWkBkGWdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.MnemonicSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.MnemonicSize.html",
+          "hash": "Se/qrNfM4yURC9SrGzZMBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.PubKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.PubKey.html",
+          "hash": "zaxE83zyI3h64gTWjN06rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.Signature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.Signature.html",
+          "hash": "Osq/CwNtqHmCbukJTxaSKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Keys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Keys.html",
+          "hash": "DgGowixsB2Uazci3KVzMaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.BadRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.BadRequestException.html",
+          "hash": "3aJBU4+a3EbUxdUDO+59jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Chain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Chain.html",
+          "hash": "LIn/Ohg5tIvfLTemf/VgZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.DeepRpcDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.DeepRpcDictionary-2.html",
+          "hash": "5Y4Ly1UE2Mt/XmNvAHAFxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.DeepRpcObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.DeepRpcObject.html",
+          "hash": "GpuH1wMZXPreQYM83WioaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.DelegateStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.DelegateStatus.html",
+          "hash": "zfW7T4QK9JDX6MtvxtBhmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.InternalErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.InternalErrorException.html",
+          "hash": "5WKhiJJC42sALE5ouDJHnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.BakingRightsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.BakingRightsQuery.html",
+          "hash": "xMUpRVjftHaboNbQQBvxrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.BigMapsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.BigMapsQuery.html",
+          "hash": "leFNCOwwChQ/WJkIw8RuqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.BlockHeaderQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.BlockHeaderQuery.html",
+          "hash": "W7d4/7Y0C5OhukA0ljCt6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.BlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.BlockQuery.html",
+          "hash": "8iTe9Uy7R1bY4dlWZE4YvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.BlocksQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.BlocksQuery.html",
+          "hash": "9QJBgat4iNmcl1q7ZMKwVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ConstantsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ConstantsQuery.html",
+          "hash": "zmf190OltNMqdvsmSdR9Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ContextQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ContextQuery.html",
+          "hash": "J4UWB34eHyGW9cfxPKQuhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ContractQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ContractQuery.html",
+          "hash": "RIaT30eHZSDvIG0q9WLI4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ContractsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ContractsQuery.html",
+          "hash": "dbUBmZQJM2CY2xBu0ciZrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.DelegateQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.DelegateQuery.html",
+          "hash": "28HRFC8R2bv91gdOu95RqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.DelegatesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.DelegatesQuery.html",
+          "hash": "YMclbMAY5VR9jvxOBMdMVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.EndorsingRightsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.EndorsingRightsQuery.html",
+          "hash": "1HZoPPRL4PZ2Gi162S0qmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.EntrypointsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.EntrypointsQuery.html",
+          "hash": "66S0juo8r/wlj+gXc4fMSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ForgeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ForgeQuery.html",
+          "hash": "tPhGholSY4M2t1VHNihHDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.FrozenBalanceQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.FrozenBalanceQuery.html",
+          "hash": "BP3iWZssvolow/t9mpRf1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.HelpersQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.HelpersQuery.html",
+          "hash": "14FO+mECEwxV3HemQkd3tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.InjectionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.InjectionQuery.html",
+          "hash": "+hXd+201RhzHA6QRIBKTdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.NoncesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.NoncesQuery.html",
+          "hash": "b+4g+5n2rAAz/v9HvoQnhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ParseQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ParseQuery.html",
+          "hash": "K3XU7FZeCpkiOmWMn9LpqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.BigMapQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.BigMapQuery.html",
+          "hash": "aJvLPQwyvdBxIsFSMdm6rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.ForgeBlockHeaderQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.ForgeBlockHeaderQuery.html",
+          "hash": "pr+ivKaESh69NTWy5LyXtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.ForgeOperationsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.ForgeOperationsQuery.html",
+          "hash": "BS6smDRYGZV4sYJ+iYJ5mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.ForgeProtocolDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.ForgeProtocolDataQuery.html",
+          "hash": "g7+24jG4wkFkmW2DItAotQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.InjectBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.InjectBlockQuery.html",
+          "hash": "FF4T5rEwVXCTw9ltgS/wyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.InjectOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.InjectOperationQuery.html",
+          "hash": "EOzZwLj3NsWoQKINNfSJwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.InjectProtocolQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.InjectProtocolQuery.html",
+          "hash": "SEXr5077VgDm7B+BA19BBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.NormalizedQuery.UnparsingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.NormalizedQuery.UnparsingMode.html",
+          "hash": "7aK2C6BxLjIkdIuzO6TqVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.NormalizedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.NormalizedQuery.html",
+          "hash": "yC1cIq67EhKOflxplJoX1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.PackDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.PackDataQuery.html",
+          "hash": "DSKlWAkTxAqtnbty3xGJ7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.ParseBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.ParseBlockQuery.html",
+          "hash": "8IWaW+NSSjwuai9rx4aPBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.ParseOperationsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.ParseOperationsQuery.html",
+          "hash": "WzwPxW3ePVsE29be51UL9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.PreapplyBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.PreapplyBlockQuery.html",
+          "hash": "CF4nOR6ypLY6b84v+mCQBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.PreapplyOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.PreapplyOperationQuery.html",
+          "hash": "ZOIfYryOmlsvOdT6Ad7HaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.RunCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.RunCodeQuery.html",
+          "hash": "rO1AKXyn5dsUxFVfHHW71A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.RunOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.RunOperationQuery.html",
+          "hash": "RcCR/QJCrfs0pxx8Spn0RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.SeedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.SeedQuery.html",
+          "hash": "O34bBhdYMA6u3F9gLsiT1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.SimulateOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.SimulateOperationQuery.html",
+          "hash": "NtXSHnXCqwy1E3PvqZHptg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.TraceCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.TraceCodeQuery.html",
+          "hash": "y9oB0L1ljGCJlO7dbmISIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.TypeCheckCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.TypeCheckCodeQuery.html",
+          "hash": "8Euvi4uiAGih6ZviF57csQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.TypeCheckDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.TypeCheckDataQuery.html",
+          "hash": "acXv+VQBzJhcQyOAtZIXdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.Post.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.Post.html",
+          "hash": "g3VWovSqd64B/yxu1YvMrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.PreapplyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.PreapplyQuery.html",
+          "hash": "OiGL7JC357mZoRZz+P5qUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawBigMapQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawBigMapQuery.html",
+          "hash": "svtR0PxqHKiOcWk2NABd/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawContextQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawContextQuery.html",
+          "hash": "lSD/WiJOJQ7VGq1czict7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawContractQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawContractQuery.html",
+          "hash": "o8Ka5H/cWlY8U6hdj8r0lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawCycleQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawCycleQuery.html",
+          "hash": "rIhZmGGMA7JHsCL6xviOag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawRollQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawRollQuery.html",
+          "hash": "wKcN6FHgn4sskuhtsBcjkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawRollsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawRollsQuery.html",
+          "hash": "FihbiynEVUTuErgWyBFz/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.RawVotesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.RawVotesQuery.html",
+          "hash": "LIjzruJ4JJe/4dj9BW0Ong=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ScriptQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ScriptQuery.html",
+          "hash": "FyBxzVx+KOWXuKJf4ohyvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ScriptsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ScriptsQuery.html",
+          "hash": "0mfI2bNdVj30vGgFk9vbXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.StorageQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.StorageQuery.html",
+          "hash": "JpKIX500p1+qEvfX4yyjdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.ValidatorsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.ValidatorsQuery.html",
+          "hash": "aCYrTuAyuxz3a0O+gRakRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.VotesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.VotesQuery.html",
+          "hash": "vb4dADkH0iMMuOLlzTSUlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.Queries.html",
+          "hash": "e4UCmlk9f0E9uUEreYtsIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcArray-1.html",
+          "hash": "xi+f/aTXdwksQjjFhfUD9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcDictionary-2.html",
+          "hash": "knA33zIS9EoPWeFlcFJqoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcException.html",
+          "hash": "qy1/TMByMalRvk64H7I38Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcMethod.html",
+          "hash": "RiwPeKRWXDYu1yfRW6uvgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcObject.html",
+          "hash": "UoZxBBD+c46HgWauGjIOQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcObjectRaw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcObjectRaw.html",
+          "hash": "ljkFE5qvrLwcF1tdFQAheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcQuery.html",
+          "hash": "57QoJ6lf1Jl9ABsQ9bw+BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcSimpleArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcSimpleArray-1.html",
+          "hash": "o/2E/U14bpBt043kkK+2mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.RpcSimpleDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.RpcSimpleDictionary-2.html",
+          "hash": "LPcCVX+lMM0+wissS/k4pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.TezosRpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.TezosRpc.html",
+          "hash": "cFgp8cKWQ8NO9SieekojOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Rpc.html",
+          "hash": "/RJ0s44+h3hE2W/5vnwTug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Utils.Blake2b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Utils.Blake2b.html",
+          "hash": "aaiJEWNXWR0+gkHjD1dJeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Utils.Pbkdf2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Utils.Pbkdf2.html",
+          "hash": "k67TJc/N2hAR21jNWe5BNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Utils.RNG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Utils.RNG.html",
+          "hash": "TPXG4/rdnID+Alui1gtwFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netezos.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netezos.Utils.html",
+          "hash": "dpKa80QsXP2/8vRBVvtyeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "spjT2UsIYbmWA47uEQdl5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "yMW6ALe4oXaPOK/IotOeaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/call-smart-contracts.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/call-smart-contracts.html",
+          "hash": "kYlvhwOYmBRUEBayX2Hg+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/call-view-entrypoints.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/call-view-entrypoints.html",
+          "hash": "mDoG0Bm/RGPS44kfIQjlzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/get-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/get-started.html",
+          "hash": "8VJ6vk38fb6xnR4VBr1Brg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html",
+          "hash": "jSvqNHm9kw6m5krNQLqpSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/testnet-faucet.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/testnet-faucet.html",
+          "hash": "Xhb2Rrj55fIHgRwuB41WzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tezos-forging.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tezos-forging.html",
+          "hash": "2SBCimJf1ilMgeLgBTgNQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/tezos-rpc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tezos-rpc.html",
+          "hash": "kat26z9UDOVYpu0Y8GW1lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html",
+          "hash": "SK67XQ0k5NtD/ySj5vJd2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/wallet-import.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/wallet-import.html",
+          "hash": "vMz2ebkXcskDVpAw4P9mCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon-16x16.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon-16x16.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon-32x32.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon-32x32.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Bold.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Bold.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-ExtraLight.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-ExtraLight.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Italic.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Italic.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Regular.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "DVLNkarMEfQJfwHCUMnYAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 190,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
