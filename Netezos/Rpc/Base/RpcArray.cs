@@ -26,7 +26,7 @@
         /// <param name="index">Zero-based index of the object to query</param>
         /// <returns></returns>
         public T this[int index] => CreateRpcObject(this, $"{index}/");
-        
+
         internal RpcArray(RpcQuery baseQuery, string append) : base(baseQuery, append) { }
     }
 

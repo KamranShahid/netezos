@@ -1,5 +1,5 @@
-﻿using System.Text.Json;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System.Text.Json;
 
 namespace Netezos.Contracts
 {

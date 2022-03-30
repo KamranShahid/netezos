@@ -1,8 +1,6 @@
-﻿using System.Threading.Tasks;
-using System.Threading.Tasks;
-using System.Threading.Tasks;
-using Dynamic.Json;
+﻿using Dynamic.Json;
 using Netezos.Rpc;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Netezos.Tests.Rpc
@@ -40,7 +38,7 @@ namespace Netezos.Tests.Rpc
 
             var res = await query.GetAsync();
             Assert.True(res is DJsonArray);
-            
+
             if (res.Count == 0)
                 return;
 
@@ -175,8 +173,8 @@ namespace Netezos.Tests.Rpc
             var query = Rpc.Blocks.Head.Context.Raw.Contracts[TestInactive].InactiveDelegate;
             Assert.Equal($"chains/main/blocks/head/context/raw/json/contracts/index/{TestInactive}/inactive_delegate/", query.ToString());
 
-           var res = await query.GetAsync();
-           Assert.True(res is DJsonValue);
+            var res = await query.GetAsync();
+            Assert.True(res is DJsonValue);
         }
 
         [Fact]
@@ -323,7 +321,7 @@ namespace Netezos.Tests.Rpc
 
             var res = await query.GetAsync();
             Assert.True(res is DJsonArray);
-            
+
             if (res.Count == 0)
                 return;
 

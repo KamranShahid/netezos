@@ -22,7 +22,7 @@ namespace Netezos.Keys
         /// 32 bytes of entropy added to the public key to enable deriving secure child keys
         /// </summary>
         public byte[] ChainCode => _ChainCode.Copy();
-        
+
         readonly byte[] _ChainCode;
         Curve Curve => PubKey.Curve;
         HDStandard HD => HDStandard.Slip10;

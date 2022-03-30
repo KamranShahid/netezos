@@ -41,7 +41,7 @@
         /// Current and next protocol.
         /// </summary>
         public RpcObject Protocols => new RpcObject(this, "protocols/");
-        
+
         /// <summary>
         /// Gets the query to votes data associated with the block
         /// </summary>

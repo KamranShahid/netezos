@@ -1,8 +1,7 @@
 ﻿using Dynamic.Json;
-using Xunit;
-
 using Netezos.Encoding;
 using Netezos.Keys;
+using Xunit;
 
 namespace Netezos.Tests.Keys
 {
@@ -45,7 +44,7 @@ namespace Netezos.Tests.Keys
                 Assert.Equal(sample.sig, key.Sign(data));
                 Assert.True(key.PubKey.Verify(data, sample.sig));
             }
-            
+
             var testKey = new Key(ECKind.Secp256k1);
             const string msg = "TestMessage";
             var sign = testKey.Sign(msg);
@@ -69,7 +68,7 @@ namespace Netezos.Tests.Keys
                 Assert.Equal(sample.sig, key.Sign(data));
                 Assert.True(key.PubKey.Verify(data, sample.sig));
             }
-            
+
             var testKey = new Key(ECKind.NistP256);
             const string msg = "TestMessage";
             var sign = testKey.Sign(msg);

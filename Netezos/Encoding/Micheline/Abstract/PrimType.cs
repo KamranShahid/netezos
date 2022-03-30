@@ -1,5 +1,5 @@
-﻿using System.Text.Json.Serialization;
-using Netezos.Encoding.Serialization;
+﻿using Netezos.Encoding.Serialization;
+using System.Text.Json.Serialization;
 
 namespace Netezos.Encoding
 {

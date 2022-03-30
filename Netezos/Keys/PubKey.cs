@@ -1,6 +1,6 @@
-﻿using System;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
 using Netezos.Utils;
+using System;
 
 namespace Netezos.Keys
 {
@@ -18,7 +18,7 @@ namespace Netezos.Keys
                         _Address = Base58.Convert(Blake2b.GetDigest(Store.Data, 160), Curve.AddressPrefix);
                     }
                 }
-                
+
                 return _Address;
             }
         }
@@ -75,7 +75,7 @@ namespace Netezos.Keys
         {
             using (Store.Unlock())
             {
-                return Base58.TryParse(signature, Curve.SignaturePrefix, out var signatureBytes) 
+                return Base58.TryParse(signature, Curve.SignaturePrefix, out var signatureBytes)
                     && Curve.Verify(data, signatureBytes, Store.Data);
             }
         }
@@ -84,8 +84,8 @@ namespace Netezos.Keys
         {
             using (Store.Unlock())
             {
-                return Utf8.TryParse(message, out var messageBytes) 
-                    && Base58.TryParse(signature, Curve.SignaturePrefix, out var signatureBytes) 
+                return Utf8.TryParse(message, out var messageBytes)
+                    && Base58.TryParse(signature, Curve.SignaturePrefix, out var signatureBytes)
                     && Curve.Verify(messageBytes, signatureBytes, Store.Data);
             }
         }

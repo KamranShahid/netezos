@@ -1,5 +1,5 @@
-﻿using System.Text.Json;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System.Text.Json;
 
 namespace Netezos.Contracts
 {
@@ -62,7 +62,7 @@ namespace Netezos.Contracts
                     throw MapFailedException("invalid value");
             }
         }
-        
+
         public override IMicheline Optimize(IMicheline value)
         {
             if (value is MichelineString micheStr)

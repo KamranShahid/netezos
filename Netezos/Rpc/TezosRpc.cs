@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Netezos.Rpc.Queries;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Netezos.Rpc.Queries;
 
 namespace Netezos.Rpc
 {
@@ -14,7 +14,7 @@ namespace Netezos.Rpc
         /// Gets the query to the blocks
         /// </summary>
         public BlocksQuery Blocks { get; }
-        
+
         /// <summary>
         /// Gets the query to the injection
         /// </summary>

@@ -1,12 +1,10 @@
-using System;
-using System.IO;
-using System.Linq;
 using Dynamic.Json;
-using Xunit;
-using NJsonSchema;
-
 using Netezos.Contracts;
 using Netezos.Encoding;
+using NJsonSchema;
+using System.IO;
+using System.Linq;
+using Xunit;
 
 namespace Netezos.Tests.Contracts
 {
@@ -31,7 +29,7 @@ namespace Netezos.Tests.Contracts
                     var errors = jsonSchema.Validate((string)sample.human.value);
                     Assert.Empty(errors);
                 }
-            }        
+            }
         }
     }
 }

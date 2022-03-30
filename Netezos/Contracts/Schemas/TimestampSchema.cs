@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using System;
 using System.Numerics;
 using System.Text.Json;
-using Netezos.Encoding;
 
 namespace Netezos.Contracts
 {
@@ -22,7 +22,7 @@ namespace Netezos.Contracts
             {
                 if (micheInt.Value > 253_402_300_800 || micheInt.Value < -62_135_596_800) // DateTime overflow
                     return micheInt.Value.ToString();
-                
+
                 return new DateTime(1970, 1, 1)
                     .AddSeconds((long)micheInt.Value)
                     .ToString("yyyy-MM-ddTHH:mm:ssZ");

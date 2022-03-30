@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using System;
 using System.Collections.Generic;
 using System.Text.Json;
-using Netezos.Encoding;
 
 namespace Netezos.Contracts
 {
@@ -31,7 +31,7 @@ namespace Netezos.Contracts
         {
             Schema.WriteProperty(writer, value);
         }
-        
+
         internal override void WriteValue(Utf8JsonWriter writer)
         {
             Schema.WriteValue(writer);

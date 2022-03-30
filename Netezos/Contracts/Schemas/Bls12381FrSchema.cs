@@ -1,6 +1,6 @@
-﻿using System.Numerics;
+﻿using Netezos.Encoding;
+using System.Numerics;
 using System.Text.Json;
-using Netezos.Encoding;
 
 namespace Netezos.Contracts
 {
@@ -20,7 +20,7 @@ namespace Netezos.Contracts
         {
             writer.WriteStringValue(Flatten(value));
         }
-        
+
         public string Flatten(IMicheline value)
         {
             if (value is MichelineInt micheInt)

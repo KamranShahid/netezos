@@ -1,6 +1,6 @@
-﻿using System.Threading.Tasks;
-using Dynamic.Json;
+﻿using Dynamic.Json;
 using Netezos.Rpc;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Netezos.Tests.Rpc
@@ -17,7 +17,7 @@ namespace Netezos.Tests.Rpc
         [Fact]
         public async Task TestBlockHash()
         {
-            var query =  Rpc.Blocks.Head.Hash;
+            var query = Rpc.Blocks.Head.Hash;
             Assert.Equal($"chains/main/blocks/head/hash", query.ToString());
 
             var res = await query.GetAsync();
@@ -47,7 +47,7 @@ namespace Netezos.Tests.Rpc
         [Fact]
         public async Task TestBlockHeaderProtocolDataRaw()
         {
-            var query =  Rpc.Blocks.Head.Header.ProtocolData.Raw;
+            var query = Rpc.Blocks.Head.Header.ProtocolData.Raw;
             Assert.Equal($"chains/main/blocks/head/header/protocol_data/raw/", query.ToString());
 
             var res = await query.GetAsync();

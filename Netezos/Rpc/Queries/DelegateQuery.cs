@@ -11,7 +11,7 @@ namespace Netezos.Rpc.Queries
         /// Returns the current amount of the frozen deposits (in mutez).
         /// </summary>
         public RpcObject CurrentFrozenDeposits => new RpcObject(this, "current_frozen_deposits/");
-        
+
         /// <summary>
         /// Gets the query to the full balance of a given delegate, including the frozen balances
         /// </summary>
@@ -22,7 +22,7 @@ namespace Netezos.Rpc.Queries
         /// Gets the query to the full balance of a given delegate, including the frozen balances
         /// </summary>
         public RpcObject FullBalance => new RpcObject(this, "full_balance/");
-        
+
         /// <summary>
         /// Gets the query to the flag, indicating whether the delegate is currently tagged as deactivated or not
         /// </summary>
@@ -49,7 +49,7 @@ namespace Netezos.Rpc.Queries
         /// </summary>
         [Obsolete("This RPC query was removed. Use it on early protocols only.")]
         public RpcObject FrozenBalanceByCycle => new RpcObject(this, "frozen_balance_by_cycle/");
-        
+
         /// <summary>
         /// Returns the initial amount (that is, at the beginning of a cycle) of the frozen deposits (in mutez). This amount is the same as the current amount of the frozen deposits, unless the delegate has been punished.
         /// </summary>

@@ -1,10 +1,10 @@
-﻿using System;
-using System.ComponentModel;
-using System.Security.Cryptography;
+﻿using Netezos.Utils;
 using Org.BouncyCastle.Asn1.Sec;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
-using Netezos.Utils;
+using System;
+using System.ComponentModel;
+using System.Security.Cryptography;
 
 namespace Netezos.Keys
 {
@@ -32,7 +32,7 @@ namespace Netezos.Keys
                     ECKind.NistP256 => SecNamedCurves.GetByName("secp256r1").N,
                     _ => throw new InvalidEnumArgumentException()
                 };
-                
+
                 if (parse256LL.CompareTo(N) < 0 && parse256LL.CompareTo(BigInteger.Zero) != 0)
                 {
                     l.Flush();
@@ -46,7 +46,7 @@ namespace Netezos.Keys
         public override (byte[], byte[]) GetChildPrivateKey(Curve curve, byte[] privateKey, byte[] chainCode, uint index)
         {
             byte[] l;
-            
+
             if ((index & 0x80000000) != 0) // hardened
             {
                 l = Bip32Hash(chainCode, index, 0, privateKey);
@@ -134,7 +134,7 @@ namespace Netezos.Keys
                     l = Bip32Hash(chainCode, index, 1, lr);
                     continue;
                 }
-                
+
                 return (q.Normalize().GetEncoded(true), lr);
             }
         }

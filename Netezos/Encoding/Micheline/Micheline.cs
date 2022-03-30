@@ -1,9 +1,9 @@
+using Netezos.Encoding.Serialization;
+using Netezos.Forging;
 using System;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Netezos.Encoding.Serialization;
-using Netezos.Forging;
 
 namespace Netezos.Encoding
 {

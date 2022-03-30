@@ -56,7 +56,7 @@ namespace Netezos.Encoding
             res = null;
             if (bytes.Length < 4)
                 return false;
-            
+
             var data = bytes.GetBytes(0, bytes.Length - 4);
 
             var checkSum = CheckSum(data);
@@ -159,12 +159,12 @@ namespace Netezos.Encoding
 
             return TryDecodePlain(base58, out var data) && TryVerifyAndRemoveCheckSum(data, out bytes);
         }
-        
-        
+
+
         public static bool TryParse(string base58, byte[] prefix, out byte[] bytes)
         {
             bytes = null;
-            
+
             if (!TryParse(base58, out var data))
                 return false;
 
@@ -173,7 +173,7 @@ namespace Netezos.Encoding
 
             if (prefix.Length >= data.Length)
                 return false;
-            
+
             bytes = data.GetBytes(prefix.Length, data.Length - prefix.Length);
             return true;
         }

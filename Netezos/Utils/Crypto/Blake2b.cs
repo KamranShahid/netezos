@@ -8,7 +8,7 @@ namespace Netezos.Utils
 
         public static byte[] GetDigest(byte[] msg, int size)
         {
-            var result = new byte[size/8];
+            var result = new byte[size / 8];
             var digest = new Blake2bDigest(size);
 
             digest.BlockUpdate(msg, 0, msg.Length);

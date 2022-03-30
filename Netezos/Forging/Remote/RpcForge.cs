@@ -1,17 +1,16 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
 using Netezos.Forging.Models;
 using Netezos.Rpc;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Netezos.Forging
 {
     public class RpcForge : IForge
     {
         readonly TezosRpc Rpc;
-        
+
         public RpcForge(TezosRpc rpc) => Rpc = rpc;
 
         public Task<byte[]> ForgeOperationAsync(OperationContent content)

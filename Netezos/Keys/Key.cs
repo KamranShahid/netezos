@@ -1,5 +1,5 @@
-﻿using System;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System;
 
 namespace Netezos.Keys
 {

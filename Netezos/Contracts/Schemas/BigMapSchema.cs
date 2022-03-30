@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using Netezos.Forging;
+using Netezos.Utils;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.Json;
-using Netezos.Encoding;
-using Netezos.Forging;
-using Netezos.Utils;
 
 namespace Netezos.Contracts
 {

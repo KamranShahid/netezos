@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
-using Dynamic.Json;
+﻿using Dynamic.Json;
 using Netezos.Rpc;
 using Netezos.Rpc.Queries.Post;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Netezos.Tests.Rpc
@@ -34,7 +34,7 @@ namespace Netezos.Tests.Rpc
             var res = await query.GetAsync();
             Assert.True(res is DJsonObject);
         }
-        
+
         [Fact]
         public async Task TestContextBigMapsNormalized()
         {
@@ -240,7 +240,7 @@ namespace Netezos.Tests.Rpc
             var res = await query.GetAsync();
             Assert.True(res is DJsonArray);
         }
-        
+
         [Fact]
         public async Task TestContextDelegateFrozenDeposits()
         {
@@ -261,7 +261,7 @@ namespace Netezos.Tests.Rpc
             if (res != null)
                 Assert.True(res is DJsonValue);
         }
-        
+
         [Fact]
         public async Task TestContextDelegateFullBalance()
         {

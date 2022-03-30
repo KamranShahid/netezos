@@ -1,5 +1,5 @@
-﻿using System.Text.Json;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System.Text.Json;
 
 namespace Netezos.Contracts
 {
@@ -14,7 +14,7 @@ namespace Netezos.Contracts
             if (!(value is MichelinePrim michePrim)
                 || (michePrim.Prim != PrimType.True && michePrim.Prim != PrimType.False))
                 throw FormatException(value);
-            
+
             writer.WriteBooleanValue(michePrim.Prim == PrimType.True);
         }
 

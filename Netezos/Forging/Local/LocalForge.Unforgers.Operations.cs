@@ -178,7 +178,7 @@ namespace Netezos.Forging
                 Parameters = UnforgeParameters(reader)
             };
         }
-        
+
         static RevealContent UnforgeReveal(ForgedReader reader)
         {
             return new RevealContent

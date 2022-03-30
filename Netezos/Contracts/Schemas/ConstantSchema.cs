@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.Json;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
 using Netezos.Forging;
 using Netezos.Utils;
+using System;
+using System.Text.Json;
 
 namespace Netezos.Contracts
 {

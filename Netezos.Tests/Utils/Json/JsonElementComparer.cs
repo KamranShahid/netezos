@@ -11,7 +11,7 @@ namespace Netezos.Tests
         public JsonElementComparer()
             : this(-1, false, false)
         { }
-        
+
         /// <param name="ignoreType">Ignore type of properties being compared (e.g. "0" (String) and 0 (Int32) are considered equal)</param>
         /// <param name="ignoreCase">Ignore casing of strings (e.g. "CDR" and "cdr" are considered equal)</param>
         public JsonElementComparer(bool ignoreType, bool ignoreCase)
@@ -73,7 +73,7 @@ namespace Netezos.Tests
                         // So stably sorting by name then comparing values seems the way to go.
                         var xPropertiesUnsorted = x.EnumerateObject().ToList();
                         var yPropertiesUnsorted = y.EnumerateObject().ToList();
-                        
+
                         if (xPropertiesUnsorted.Count != yPropertiesUnsorted.Count)
                         {
                             return false;

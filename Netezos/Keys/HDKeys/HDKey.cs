@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Netezos.Utils;
+using System;
 using System.Linq;
-using Netezos.Utils;
 
 namespace Netezos.Keys
 {

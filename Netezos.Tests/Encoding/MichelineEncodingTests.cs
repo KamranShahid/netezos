@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text.Json;
 using System.Text.Encodings.Web;
+using System.Text.Json;
 using Xunit;
-using Netezos.Encoding;
 
 namespace Netezos.Tests.Encoding
 {

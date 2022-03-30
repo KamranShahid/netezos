@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Netezos.Utils;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
-
-using Netezos.Utils;
 
 namespace Netezos.Keys
 {
@@ -10,7 +9,7 @@ namespace Netezos.Keys
         readonly string Sentence;
 
         public Mnemonic() : this(MnemonicSize.M15) { }
-        
+
         public Mnemonic(MnemonicSize size)
         {
             var entropy = RNG.GetNonZeroBytes((int)size * 4 / 3);

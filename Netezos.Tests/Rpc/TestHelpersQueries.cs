@@ -1,6 +1,6 @@
-﻿using System.Threading.Tasks;
-using Dynamic.Json;
+﻿using Dynamic.Json;
 using Netezos.Rpc;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Netezos.Tests.Rpc
@@ -72,7 +72,7 @@ namespace Netezos.Tests.Rpc
         {
             var query = Rpc.Blocks.Head.Helpers.LevelsInCurrentCycle;
             Assert.Equal("chains/main/blocks/head/helpers/levels_in_current_cycle", query.ToString());
-            
+
             var res = await query.GetAsync();
             Assert.True(res is DJsonObject);
         }
@@ -159,7 +159,7 @@ namespace Netezos.Tests.Rpc
         {
             var query = Rpc.Blocks.Head.Helpers.Validators;
             Assert.Equal("chains/main/blocks/head/helpers/validators", query.ToString());
-            
+
             var res = await query.GetAsync(TestDelegate);
             Assert.True(res is DJsonArray);
         }

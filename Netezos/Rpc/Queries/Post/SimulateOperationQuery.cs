@@ -1,5 +1,5 @@
-using System.Threading.Tasks;
 using Netezos.Forging.Models;
+using System.Threading.Tasks;
 
 namespace Netezos.Rpc.Queries.Post
 {

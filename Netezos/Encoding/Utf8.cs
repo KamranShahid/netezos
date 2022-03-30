@@ -6,14 +6,14 @@
         {
             return System.Text.Encoding.UTF8.GetBytes(text);
         }
-        
+
         public static bool TryParse(string text, out byte[] bytes)
         {
             bytes = null;
 
             if (string.IsNullOrEmpty(text))
                 return false;
-            
+
             bytes = System.Text.Encoding.UTF8.GetBytes(text);
 
             return true;

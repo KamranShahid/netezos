@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using Netezos.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
-using Netezos.Encoding;
-using Netezos.Utils;
 
 namespace Netezos.Keys
 {

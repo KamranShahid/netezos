@@ -1,6 +1,6 @@
-﻿using System.Threading.Tasks;
-using Dynamic.Json;
+﻿using Dynamic.Json;
 using Netezos.Rpc;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Netezos.Tests.Rpc

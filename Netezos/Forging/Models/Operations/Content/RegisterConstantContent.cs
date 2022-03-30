@@ -1,5 +1,5 @@
-﻿using System.Text.Json.Serialization;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System.Text.Json.Serialization;
 
 namespace Netezos.Forging.Models
 {

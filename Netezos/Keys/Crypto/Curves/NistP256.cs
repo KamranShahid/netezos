@@ -1,9 +1,9 @@
-﻿using Org.BouncyCastle.Asn1.Sec;
+﻿using Netezos.Utils;
+using Org.BouncyCastle.Asn1.Sec;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Signers;
 using Org.BouncyCastle.Math;
-using Netezos.Utils;
 
 namespace Netezos.Keys
 {
@@ -12,7 +12,7 @@ namespace Netezos.Keys
         #region static
         static readonly byte[] _SeedKey = { 78, 105, 115, 116, 50, 53, 54, 112, 49, 32, 115, 101, 101, 100 }; // "Nist256p1 seed"
         #endregion
-        
+
         public override ECKind Kind => ECKind.NistP256;
 
         public override byte[] AddressPrefix => Prefix.tz3;

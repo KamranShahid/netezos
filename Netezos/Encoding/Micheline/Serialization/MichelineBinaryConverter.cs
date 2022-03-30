@@ -255,7 +255,7 @@ namespace Netezos.Encoding.Serialization
             {
                 cnt = tag & 0x1F;
                 if (cnt == 0x1F) cnt = reader.Read7BitInt();
-                
+
                 switch ((MichelineType)(tag & 0xE0))
                 {
                     case MichelineType.Array:
@@ -361,7 +361,7 @@ namespace Netezos.Encoding.Serialization
 
                 if (annots > 0)
                     ReadAnnotsToJson(reader, writer, annots);
-                
+
                 writer.WriteEndObject();
             }
             else

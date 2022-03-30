@@ -7,10 +7,10 @@ namespace Netezos.Encoding.Serialization
     public static class MichelsonFormatter
     {
         const int LineSize = 100;
-        
+
         public static string MichelineToMichelson(IMicheline data, bool inline = false)
         {
-            return FormatNode(data, inline:inline,  root:true);
+            return FormatNode(data, inline: inline, root: true);
         }
 
         static bool IsFramed(MichelinePrim prim)
@@ -39,7 +39,7 @@ namespace Netezos.Encoding.Serialization
                     return prim.Annots?.Any(x => x.Type != AnnotationType.Variable) ?? false;
             }
         }
-        
+
         static bool IsInline(MichelinePrim prim)
         {
             return prim.Prim == PrimType.PUSH;
@@ -58,21 +58,21 @@ namespace Netezos.Encoding.Serialization
             switch (node)
             {
                 case MichelineArray array:
-                {
-                    var isScriptRoot = root && IsScript(array);
-                    var seqIndent = isScriptRoot ? indent : $"{indent}{new string(' ', 2)}";
-                    var items = array.Select(x => FormatNode(x, seqIndent, inline, wrapped: true)).ToList();
-                    if (!items.Any())
-                        return "{}";
-                    
-                    var length = indent.Length + items.Sum(x => x.Length) + 4;
-                    var space = isScriptRoot ? "" : " ";
-                    var seq = inline || length < LineSize
-                        ? string.Join($"{space}; ", items)
-                        : string.Join($"{space};\n{seqIndent}", items);
-                    
-                    return isScriptRoot ? seq : $"{{ {seq} }}";
-                }
+                    {
+                        var isScriptRoot = root && IsScript(array);
+                        var seqIndent = isScriptRoot ? indent : $"{indent}{new string(' ', 2)}";
+                        var items = array.Select(x => FormatNode(x, seqIndent, inline, wrapped: true)).ToList();
+                        if (!items.Any())
+                            return "{}";
+
+                        var length = indent.Length + items.Sum(x => x.Length) + 4;
+                        var space = isScriptRoot ? "" : " ";
+                        var seq = inline || length < LineSize
+                            ? string.Join($"{space}; ", items)
+                            : string.Join($"{space};\n{seqIndent}", items);
+
+                        return isScriptRoot ? seq : $"{{ {seq} }}";
+                    }
                 case MichelinePrim prim:
                     var expr = $"{prim.Prim}{(prim.Annots != null ? $" {string.Join(" ", prim.Annots)}" : "")}";
                     var args = prim.Args ?? new List<IMicheline>();

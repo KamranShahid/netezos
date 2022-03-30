@@ -1,6 +1,6 @@
+using Netezos.Encoding;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Netezos.Encoding;
 
 namespace Netezos.Rpc.Queries.Post
 {

@@ -29,19 +29,19 @@ namespace Netezos.Tests.Keys
                 masterPubKey = childPubKey;
             }
         }
-        
+
         [Fact]
         public void TestHdKeyGenerationSecp()
         {
             var path = new HDPath("m/44/1729/0/0/0");
             var key = new HDKey(ECKind.Secp256k1);
             var anotherKey = new HDKey(ECKind.Secp256k1);
-            
+
             Assert.NotEqual(key.Address, anotherKey.Address);
-            
+
             var derived = key.Derive(path);
             var pubDerived = key.HDPubKey.Derive(path);
-            
+
             Assert.Equal(derived.Address, pubDerived.Address);
         }
 
@@ -52,7 +52,7 @@ namespace Netezos.Tests.Keys
             var key = new HDKey(ECKind.NistP256);
             var derived = key.Derive(path);
             var pubDerived = key.HDPubKey.Derive(path);
-            
+
             Assert.Equal(derived.Address, pubDerived.Address);
         }
 
@@ -116,7 +116,7 @@ namespace Netezos.Tests.Keys
             {
                 var hdKey = HDKey.FromSeed(Hex.Parse((string)sample.seed))
                     .Derive((string)sample.path);
-            
+
                 Assert.Equal(sample.privateKey, hdKey.Key.GetHex());
                 Assert.Equal(sample.chainCode, Hex.Convert(hdKey.ChainCode));
                 Assert.Equal(sample.pubKey, hdKey.PubKey.GetHex());
@@ -130,15 +130,15 @@ namespace Netezos.Tests.Keys
             {
                 var hdKey = HDKey.FromSeed(Hex.Parse((string)sample.seed), ECKind.Secp256k1)
                     .Derive((string)sample.path);
-            
+
                 Assert.Equal(sample.privateKey, hdKey.Key.GetHex());
                 Assert.Equal(sample.chainCode, Hex.Convert(hdKey.ChainCode));
                 Assert.Equal(sample.pubKey, hdKey.PubKey.GetHex());
-                
+
                 TestPublicKeyDerivation(sample.path, sample.seed, ECKind.Secp256k1);
             }
         }
-        
+
 
         [Fact]
         public void TestNistp256()
@@ -147,15 +147,15 @@ namespace Netezos.Tests.Keys
             {
                 var hdKey = HDKey.FromSeed(Hex.Parse((string)sample.seed), ECKind.NistP256)
                     .Derive((string)sample.path);
-            
+
                 Assert.Equal(sample.privateKey, hdKey.Key.GetHex());
                 Assert.Equal(sample.chainCode, Hex.Convert(hdKey.ChainCode));
                 Assert.Equal(sample.pubKey, hdKey.PubKey.GetHex());
-                
+
                 TestPublicKeyDerivation(sample.path, sample.seed, ECKind.NistP256);
             }
         }
-        
+
         [Fact]
         public void Atomex()
         {
@@ -163,12 +163,12 @@ namespace Netezos.Tests.Keys
             {
                 var hdKey = HDKey.FromMnemonic(Mnemonic.Parse((string)sample.mnemonic))
                     .Derive((string)sample.path);
-            
+
                 Assert.Equal(sample.privateKey, hdKey.Key.GetBase58());
                 Assert.Equal(sample.address, hdKey.Address);
             }
         }
-        
+
         [Fact]
         public void Kukai()
         {
@@ -176,7 +176,7 @@ namespace Netezos.Tests.Keys
             {
                 var hdKey = HDKey.FromMnemonic(Mnemonic.Parse((string)sample.mnemonic))
                     .Derive((string)sample.path);
-            
+
                 Assert.Equal(sample.address, hdKey.Address);
             }
         }

@@ -1,11 +1,9 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using Dynamic.Json;
-using Xunit;
-
+﻿using Dynamic.Json;
 using Netezos.Contracts;
 using Netezos.Encoding;
+using System.IO;
+using System.Linq;
+using Xunit;
 
 namespace Netezos.Tests.Contracts
 {

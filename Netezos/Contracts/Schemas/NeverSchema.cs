@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Netezos.Encoding;
+using System;
 using System.Text.Json;
-using Netezos.Encoding;
 
 namespace Netezos.Contracts
 {

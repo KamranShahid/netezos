@@ -68,13 +68,13 @@ namespace Netezos.Rpc.Queries
         [Obsolete("This RPC query was removed. Use it on early protocols only.")]
         public DeepRpcDictionary<int, FrozenBalanceQuery>
             FrozenBalance => new DeepRpcDictionary<int, FrozenBalanceQuery>(this, "frozen_balance/");
-        
+
         /// <summary>
         /// Gets the query to the frozen deposits
         /// </summary>
         public RpcObject
             FrozenDeposits => new RpcObject(this, "frozen_deposits/");
-        
+
         /// <summary>
         /// Gets the query to the manager of a contract
         /// </summary>

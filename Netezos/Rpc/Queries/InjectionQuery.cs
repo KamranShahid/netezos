@@ -11,12 +11,12 @@ namespace Netezos.Rpc.Queries
         /// Gets the query to the block injection
         /// </summary>
         public InjectBlockQuery Block => new InjectBlockQuery(this, "block/");
-        
+
         /// <summary>
         /// Gets the query to the operation injection
         /// </summary>
         public InjectOperationQuery Operation => new InjectOperationQuery(this, "operation/");
-        
+
         /// <summary>
         /// Gets the query to the protocol injection
         /// </summary>

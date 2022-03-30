@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
 using Netezos.Forging.Models;
 using Netezos.Utils;
+using System;
+using System.Linq;
 
 namespace Netezos.Forging
 {
@@ -168,7 +168,7 @@ namespace Netezos.Forging
                 ForgeAddress(operation.Destination),
                 ForgeParameters(operation.Parameters));
         }
-        
+
         static byte[] ForgeReveal(RevealContent operation)
         {
             return Bytes.Concat(

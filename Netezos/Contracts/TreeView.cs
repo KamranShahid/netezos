@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Netezos.Encoding;
+﻿using Netezos.Encoding;
+using System.Collections.Generic;
 
 namespace Netezos.Contracts
 {

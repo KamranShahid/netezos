@@ -1,7 +1,7 @@
-﻿using Org.BouncyCastle.Crypto.Parameters;
+﻿using Netezos.Utils;
+using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Signers;
 using BcEd25519 = Org.BouncyCastle.Math.EC.Rfc8032.Ed25519;
-using Netezos.Utils;
 
 namespace Netezos.Keys
 {
@@ -10,7 +10,7 @@ namespace Netezos.Keys
         #region static
         static readonly byte[] _SeedKey = { 101, 100, 50, 53, 53, 49, 57, 32, 115, 101, 101, 100 }; // "ed25519 seed"
         #endregion
-        
+
         public override ECKind Kind => ECKind.Ed25519;
 
         public override byte[] AddressPrefix => Prefix.tz1;

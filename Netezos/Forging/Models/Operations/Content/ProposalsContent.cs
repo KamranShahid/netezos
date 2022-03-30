@@ -7,7 +7,7 @@ namespace Netezos.Forging.Models
     {
         [JsonPropertyName("kind")]
         public override string Kind => "proposals";
-        
+
         [JsonPropertyName("source")]
         public string Source { get; set; }
 

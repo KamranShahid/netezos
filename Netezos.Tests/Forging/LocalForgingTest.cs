@@ -1,15 +1,14 @@
+using Dynamic.Json;
+using Netezos.Encoding;
+using Netezos.Forging;
+using Netezos.Forging.Models;
 using System;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using Dynamic.Json;
 using Xunit;
-
-using Netezos.Encoding;
-using Netezos.Forging;
-using Netezos.Forging.Models;
 
 namespace Netezos.Tests.Forging
 {

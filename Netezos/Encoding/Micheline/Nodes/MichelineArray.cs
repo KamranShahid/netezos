@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Netezos.Encoding.Serialization;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json.Serialization;
-using Netezos.Encoding.Serialization;
 
 namespace Netezos.Encoding
 {

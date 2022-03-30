@@ -37,7 +37,7 @@ namespace Netezos.Rpc.Queries
         /// Gets the query to the raw context data
         /// </summary>
         public RawContextQuery Raw => new RawContextQuery(this, "raw/json/");
-        
+
         /// <summary>
         /// Gets the query to the seed data
         /// </summary>
