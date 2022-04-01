@@ -1,6 +1,7 @@
 ﻿using Dynamic.Json;
 using Dynamic.Json.Extensions;
 using System;
+using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -86,8 +87,9 @@ namespace Netezos.Rpc
 
         public async Task<T> GetJson<T>(string path, CancellationToken cancellationToken = default)
         {
+
             using (var stream = await HttpClient.GetStreamAsync(path))
-            {
+            {               
                 return await JsonSerializer.DeserializeAsync<T>(stream, DefaultOptions, cancellationToken);
             }
         }

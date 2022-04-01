@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netezos.Ledger", "Netezos.Ledger\Netezos.Ledger.csproj", "{62A45E8D-6F4E-4BCA-9936-DA4400F5277C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netezos", "Netezos\Netezos.csproj", "{BABFBBB7-6480-4481-83F2-DF4CE9781495}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netezos.Tests", "Netezos.Tests\Netezos.Tests.csproj", "{BB1E179B-ADA8-4F29-80C0-4A9C05DA077E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{B292FBD4-3C4B-48A9-B381-46F68443B8FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{BB1E179B-ADA8-4F29-80C0-4A9C05DA077E}.Release|x64.Build.0 = Release|Any CPU
 		{BB1E179B-ADA8-4F29-80C0-4A9C05DA077E}.Release|x86.ActiveCfg = Release|Any CPU
 		{BB1E179B-ADA8-4F29-80C0-4A9C05DA077E}.Release|x86.Build.0 = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|x64.Build.0 = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B292FBD4-3C4B-48A9-B381-46F68443B8FF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
