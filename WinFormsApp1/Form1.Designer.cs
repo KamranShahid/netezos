@@ -32,11 +32,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPrivateKeytFromTransfer = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtPublicKeyToTransfer = new System.Windows.Forms.TextBox();
+            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.txtNetwork = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -76,12 +76,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Amount";
             // 
-            // textBox1
+            // txtPrivateKeytFromTransfer
             // 
-            this.textBox1.Location = new System.Drawing.Point(216, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(581, 23);
-            this.textBox1.TabIndex = 4;
+            this.txtPrivateKeytFromTransfer.Location = new System.Drawing.Point(216, 38);
+            this.txtPrivateKeytFromTransfer.Name = "txtPrivateKeytFromTransfer";
+            this.txtPrivateKeytFromTransfer.Size = new System.Drawing.Size(581, 23);
+            this.txtPrivateKeytFromTransfer.TabIndex = 4;
             // 
             // label4
             // 
@@ -92,38 +92,39 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "NetworkUrl";
             // 
-            // textBox2
+            // txtPublicKeyToTransfer
             // 
-            this.textBox2.Location = new System.Drawing.Point(216, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(581, 23);
-            this.textBox2.TabIndex = 6;
+            this.txtPublicKeyToTransfer.Location = new System.Drawing.Point(216, 67);
+            this.txtPublicKeyToTransfer.Name = "txtPublicKeyToTransfer";
+            this.txtPublicKeyToTransfer.Size = new System.Drawing.Size(581, 23);
+            this.txtPublicKeyToTransfer.TabIndex = 6;
+            this.txtPublicKeyToTransfer.Text = "tz1NpRgSe3RUWjJD1mYhHbzVNxhPaqK6XemJ";
             // 
-            // textBox3
+            // txtAmount
             // 
-            this.textBox3.Location = new System.Drawing.Point(216, 96);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 7;
+            this.txtAmount.Location = new System.Drawing.Point(216, 96);
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(100, 23);
+            this.txtAmount.TabIndex = 7;
             // 
-            // textBox4
+            // txtNetwork
             // 
-            this.textBox4.Location = new System.Drawing.Point(216, 122);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(581, 23);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "https://rpc.tzkt.io/ithacanet";
+            this.txtNetwork.Location = new System.Drawing.Point(216, 122);
+            this.txtNetwork.Name = "txtNetwork";
+            this.txtNetwork.Size = new System.Drawing.Size(581, 23);
+            this.txtNetwork.TabIndex = 8;
+            this.txtNetwork.Text = "https://rpc.tzkt.io/ithacanet";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNetwork);
+            this.Controls.Add(this.txtAmount);
+            this.Controls.Add(this.txtPublicKeyToTransfer);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrivateKeytFromTransfer);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -141,10 +142,10 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
+        private TextBox txtPrivateKeytFromTransfer;
         private Label label4;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox txtPublicKeyToTransfer;
+        private TextBox txtAmount;
+        private TextBox txtNetwork;
     }
 }
